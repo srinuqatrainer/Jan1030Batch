@@ -1,0 +1,11 @@
+package com.StepDefination;
+
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@Cucumber.Options(features="OHRM")
+
+
+public class TestRunner {
+
+}

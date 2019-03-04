@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;KeyWordDriven&apos;&#x0D;&#x0A;- Original project: &apos;KeyWordDriven&apos;&#x0D;&#x0A;- Original element: &apos;ActionsKeyWords.xlsx&apos;" description="Delete element" element1="src/com/ExcelTestDataFiles/ActionsKeyWords.xlsx" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1550726468743" subPackages="false" version="1.0"/>
+</session>

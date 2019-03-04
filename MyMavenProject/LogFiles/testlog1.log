@@ -1,0 +1,18 @@
+[main] INFO OHRM_LogInTest -  Firefox Borwser successfully launched 
+[main] INFO OHRM_LogInTest -  Successfully navigated to OHRM Home page 
+[main] INFO OHRM_LogInTest -  Successfully Entered UserName 
+[main] INFO OHRM_LogInTest -  Successfully entered Password 
+[main] INFO OHRM_LogInTest -  Performend click opeation on SignIn Button 
+[main] INFO OHRM_LogInTest - The expected title is : OrangeHRM
+[main] INFO OHRM_LogInTest - the actual title is : OrangeHRM
+[main] INFO OHRM_LogInTest - LogIn Successfull - PASS
+[main] INFO OHRM_LogInTest -  Application closed Successfully 
+[main] INFO OHRM_LogInTest -  Firefox Borwser successfully launched 
+[main] INFO OHRM_LogInTest -  Successfully navigated to OHRM Home page 
+[main] INFO OHRM_LogInTest -  Successfully Entered UserName 
+[main] INFO OHRM_LogInTest -  Successfully entered Password 
+[main] INFO OHRM_LogInTest -  Performend click opeation on SignIn Button 
+[main] INFO OHRM_LogInTest - The expected title is : OrangeHRM
+[main] INFO OHRM_LogInTest - the actual title is : OrangeHRM
+[main] INFO OHRM_LogInTest - LogIn Successfull - PASS
+[main] INFO OHRM_LogInTest -  Application closed Successfully 

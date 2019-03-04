@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16160" started-at="2019-02-27T05:45:42Z" finished-at="2019-02-27T05:45:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16160" started-at="2019-02-27T05:45:42Z" finished-at="2019-02-27T05:45:58Z">
+      <class name="com.OHRM.OHRM_LogInTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.OHRM.OHRM_LogInTest@c81cdd1]" name="setUp" is-config="true" duration-ms="11898" started-at="2019-02-27T11:15:42Z" finished-at="2019-02-27T11:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:com.OHRM.OHRM_LogInTest@c81cdd1]" name="logIn" duration-ms="3112" started-at="2019-02-27T11:15:54Z" finished-at="2019-02-27T11:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OHRM.OHRM_LogInTest@c81cdd1]" name="tearDown" is-config="true" duration-ms="1106" started-at="2019-02-27T11:15:57Z" finished-at="2019-02-27T11:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OHRM.OHRM_LogInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

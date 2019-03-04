@@ -1,0 +1,20 @@
+package com.AutoIt;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class FileUUpload {
+	
+	WebDriver driver = null;
+	String url="https://imgur.com/";
+	
+	@BeforeTest
+	public void setUp()
+	{
+	
+	driver = new FirefoxDriver();
+	driver.get(url);
+	
+	driver.manage().window().maximize();
+	}
+}

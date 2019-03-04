@@ -1,0 +1,23 @@
+package com.OrangeHRMLogInTest;
+
+public class LogInTest {
+	
+		@Given("^Open FireFox browser and navigate to OrangeHRM application$")
+		public void Open_FireFox_browser_and_navigate_to_OrangeHRM_application()
+		{
+		  
+		}
+
+		@When("^User enters valid UserName and Password and click on LogIn button$")
+		public void User_enters_valid_UserName_and_Password_and_click_on_LogIn_button() 
+		{
+		
+		}
+
+		@Then("^User should be able to successfully logIn to the application and close the browser$")
+		public void User_should_be_able_to_successfully_logIn_to_the_application_and_close_the_browser() 
+		{
+		
+		}
+
+}

@@ -1,0 +1,18 @@
+2019-02-27 11:07:29,478 - OHRM_LogInTest -INFO -  Firefox Borwser successfully launched 
+2019-02-27 11:07:43,936 - OHRM_LogInTest -INFO -  Successfully navigated to OHRM Home page 
+2019-02-27 11:07:44,302 - OHRM_LogInTest -INFO -  Successfully Entered UserName 
+2019-02-27 11:07:44,361 - OHRM_LogInTest -INFO -  Successfully entered Password 
+2019-02-27 11:07:53,172 - OHRM_LogInTest -INFO -  Performend click opeation on SignIn Button 
+2019-02-27 11:07:53,174 - OHRM_LogInTest -INFO - The expected title is : OrangeHRM
+2019-02-27 11:07:53,188 - OHRM_LogInTest -INFO - the actual title is : OrangeHRM
+2019-02-27 11:07:53,188 - OHRM_LogInTest -INFO - LogIn Successfull - PASS
+2019-02-27 11:07:54,547 - OHRM_LogInTest -INFO -  Application closed Successfully 
+2019-02-27 11:15:51,651 - OHRM_LogInTest -INFO -  Firefox Borwser successfully launched 
+2019-02-27 11:15:53,872 - OHRM_LogInTest -INFO -  Successfully navigated to OHRM Home page 
+2019-02-27 11:15:54,245 - OHRM_LogInTest -INFO -  Successfully Entered UserName 
+2019-02-27 11:15:55,053 - OHRM_LogInTest -INFO -  Successfully entered Password 
+2019-02-27 11:15:57,160 - OHRM_LogInTest -INFO -  Performend click opeation on SignIn Button 
+2019-02-27 11:15:57,161 - OHRM_LogInTest -INFO - The expected title is : OrangeHRM
+2019-02-27 11:15:57,184 - OHRM_LogInTest -INFO - the actual title is : OrangeHRM
+2019-02-27 11:15:57,185 - OHRM_LogInTest -INFO - LogIn Successfull - PASS
+2019-02-27 11:15:58,297 - OHRM_LogInTest -INFO -  Application closed Successfully 

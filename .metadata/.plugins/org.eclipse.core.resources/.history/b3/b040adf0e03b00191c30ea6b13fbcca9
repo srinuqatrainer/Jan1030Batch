@@ -1,0 +1,79 @@
+package com.OHRM;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
+public class OHRM_LogInTest {
+	
+	Logger logger = Logger.getLogger("OHRM_LogInTest");
+	
+	WebDriver driver = null;
+	
+	String url="http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/login";
+	String userName="admin";
+	String password="password";
+	
+	
+	@BeforeTest
+	public void setUp()
+	{
+		PropertyConfigurator.configure("log4j.properties");
+		
+		driver = new FirefoxDriver();
+		logger.info(" Firefox Borwser successfully launched ");
+		
+		driver.get(url);
+		logger.info(" Successfully navigated to OHRM Home page ");
+		
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	}
+	
+	@Test
+	public void logIn()
+	{
+		
+	// <input name="txtUsername" id="txtUsername" type="text">
+	
+	driver.findElement(By.id("txtUsername")).sendKeys(userName);
+	logger.info(" Successfully Entered UserName ");
+	
+	// <input name="txtPassword" id="txtPassword" type="password">
+	driver.findElement(By.name("txtPassword")).sendKeys(password);
+	logger.info(" Successfully entered Password ");
+	// <input type="submit" name="Submit" class="button" id="btnLogin" value="LOGIN">
+	
+	driver.findElement(By.id("btnLogin")).click();
+	logger.info(" Performend click opeation on SignIn Button ");
+	
+	String expectedTitle="OrangeHRM";
+	//System.out.println("The expected title is : "+expectedTitle);
+	logger.info("The expected title is : "+expectedTitle);
+	
+	String actualTitle=driver.getTitle();
+	//System.out.println("the actual title is : "+actualTitle);
+	logger.info("the actual title is : "+actualTitle);
+	if(actualTitle.equals(expectedTitle))
+	{
+		//System.out.println(" LogIn Successfull - PASS");
+		logger.info("LogIn Successfull - PASS");
+	}
+	else
+	{
+		//System.out.println(" LogIn FAILED - FAIL");
+		logger.info("LogIn FAILED - FAIL");
+	}
+	
+	}
+	@AfterTest
+	public void tearDown()
+	{
+		driver.quit();
+		logger.info(" Application closed Successfully ");
+	}
+}
+
+	
+	
+
+

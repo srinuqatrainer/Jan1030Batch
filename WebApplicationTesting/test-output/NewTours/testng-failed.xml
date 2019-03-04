@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewTours]" parallel="tests">
+  <test name="LogIn Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.DataDriven.NewTours_LogInTest">
+        <methods>
+          <include name="logIn"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.DataDriven.NewTours_LogInTest -->
+      <class name="com.DataDriven.NewTours_NewUserRegistration_TestData">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.DataDriven.NewTours_NewUserRegistration_TestData -->
+    </classes>
+  </test> <!-- LogIn Test(failed) -->
+  <test name="User Registration(failed)" parallel="tests">
+    <classes>
+      <class name="com.DataDriven.NewTours_LogInTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.DataDriven.NewTours_LogInTest -->
+      <class name="com.DataDriven.NewTours_NewUserRegistration_TestData">
+        <methods>
+          <include name="aNewuserRegistration"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.DataDriven.NewTours_NewUserRegistration_TestData -->
+    </classes>
+  </test> <!-- User Registration(failed) -->
+</suite> <!-- Failed suite [NewTours] -->
